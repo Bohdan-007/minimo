@@ -17,34 +17,262 @@
 </head>
 
 <body>
+  <!-- top anchor for logo-link -->
+  <div id="top"></div>
 
   <!-- HEADER -->
-  <header>
+  <header id="header" class="white">
     <div class="container">
       <nav class="nav-extended white">
         <div class="nav-wrapper">
-          <a href="" class="brand-logo grey-text text-darken-4">MINIM&#xd8;</a>
+          <a href="#top" class="brand-logo grey-text text-darken-4">MINIM&#xd8;</a>
           <a href="" data-target="mobile-demo" class="sidenav-trigger grey-text text-darken-2"><i
               class="material-icons">menu</i></a>
           <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <li><a href="" class="grey-text text-darken-2">LIFESTYLE</a></li>
-            <li><a href="" class="grey-text text-darken-2">PHOTODIARY</a></li>
+            <li><a href="#lifestyle" class="grey-text text-darken-2">LIFESTYLE</a></li>
+            <li><a href="#photodiary" class="grey-text text-darken-2">PHOTODIARY</a></li>
             <li><a href="" class="grey-text text-darken-2">MUSIC</a></li>
-            <li><a href="" class="grey-text text-darken-2">TRAVEL</a></li>
+            <li><a href="#form" class="grey-text text-darken-2">TRAVEL</a></li>
           </ul>
         </div>
       </nav>
 
       <ul class="sidenav" id="mobile-demo">
-        <li><a href="">LIFESTYLE</a></li>
-        <li><a href="">PHOTODIARY</a></li>
+        <li><a href="#lifestyle">LIFESTYLE</a></li>
+        <li><a href="#photodiary">PHOTODIARY</a></li>
         <li><a href="">MUSIC</a></li>
-        <li><a href="">TRAVEL</a></li>
+        <li><a href="#form">TRAVEL</a></li>
       </ul>
     </div>
   </header>
 
   <!-- MAIN -->
+  <!-- hero section, slider -->
+  <section class="hero">
+    <div class="slider">
+      <ul class="slides">
+        <li>
+          <img src="./images/slider-1.png">
+          <div class="caption center-align">
+            <h3 class="black-text">Desert</h3>
+            <h5 class="light grey-text text-darken-4">Here's our small slogan.</h5>
+          </div>
+        </li>
+        <li>
+          <img src="./images/slider-2.jpg">
+          <div class="caption left-align">
+            <h3 class="white-text">River</h3>
+            <h5 class="light grey-light light-lighten-5">Here's our small slogan.</h5>
+          </div>
+        </li>
+        <li>
+          <img src="./images/slider-3.jpg">
+          <div class="caption right-align">
+            <h3 class="white-text">Motorcycles</h3>
+            <h5 class="light grey-light light-lighten-5">Here's our small slogan.</h5>
+          </div>
+        </li>
+        <li>
+          <img src="./images/slider-4.jpg">
+          <div class="caption center-align">
+            <h3 class="black-text">Building</h3>
+            <h5 class="light grey-text text-darken-4">Here's our small slogan.</h5>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- lifestyle section -->
+  <section id="lifestyle" class="lifestyle">
+    <div class="container">
+      <p class="lifestyle-subtitle grey-text">PHOTODIARY</p>
+      <h2 class="lifestyle-title title grey-text text-darken-2">The perfect weekend getaway</h2>
+      <p class="lifestyle-text grey-text text-darken-2">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos inventore pariatur officiis ipsa harum molestias
+        laborum, ex ea ut, assumenda, quibusdam dolorem deleniti recusandae aliquam? Placeat perferendis voluptas earum
+        quibusdam.
+        Cum beatae aliquam sunt placeat. Corporis quibusdam temporibus tempore, delectus dolore maxime laborum sequi
+        quam blanditiis magni aliquid illo! Laboriosam odio earum ea asperiores incidunt quod adipisci iste. Ducimus,
+        veritatis.
+        Unde minus minima voluptatem, provident dolorum corporis necessitatibus architecto perspiciatis ad! Molestiae
+        laudantium, voluptates minima natus ducimus alias laborum error adipisci accusantium, deserunt, ipsum ratione
+        quidem praesentium quod eos laboriosam.
+        Omnis repudiandae veniam debitis in commodi labore necessitatibus sint provident fuga aliquid tenetur ipsum
+        quod, iure fugit ratione dolore explicabo distinctio aspernatur exercitationem? Incidunt, labore id eveniet
+        placeat pariatur dignissimos.
+        Molestias id quidem ea ad temporibus natus error consequatur dolorem, tempora magni ut cumque voluptatibus earum
+        dignissimos porro numquam nesciunt reiciendis exercitationem et. Corrupti maiores, ducimus eligendi ea nesciunt
+        voluptatum!
+      </p>
+      <a href="" class="lifestyle-link grey-text">LEAVE A COMMENT</a>
+    </div>
+  </section>
+
+  <!-- photodiary section -->
+  <section>
+    <div id="photodiary" class="container">
+      <div class="row">
+        <!-- card 1 -->
+        <div class="col s12 l5">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="./images/image-1.png">
+            </div>
+            <div class="card-content">
+              <p class="card-content-subtitle grey-text">LIFESTYLE</p>
+              <span class="card-title activator grey-text text-darken-2">More than just a music festival</span>
+              <p class="card-content-dexc grey-text text-darken-2">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis neque, molestias quidem
+                eaque aspernatur error repellat soluta quae fugiat maxime vitae recusandae vero
+                omnis pariatur sapiente illum.
+              </p>
+            </div>
+            <div class="card-reveal grey lighten-3">
+              <span class="card-title grey-text text-darken-4">More than just a music festival<i
+                  class="material-icons right">close</i></span>
+              <p>Here is some more information about this product that is only revealed once clicked on.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- card 2 -->
+        <div class="col s12 l5 offset-l2">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="./images/image-2.png">
+            </div>
+            <div class="card-content">
+              <p class="card-content-subtitle grey-text">LIFESTYLE</p>
+              <span class="card-title activator grey-text text-darken-2">Life tastes better with coffee</span>
+              <p class="card-content-dexc grey-text text-darken-2">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis neque, molestias quidem
+                eaque aspernatur error repellat soluta quae fugiat maxime vitae recusandae vero
+                omnis pariatur sapiente illum.
+              </p>
+            </div>
+            <div class="card-reveal grey lighten-3">
+              <span class="card-title grey-text text-darken-4">More than just a music festival<i
+                  class="material-icons right">close</i></span>
+              <p>Here is some more information about this product that is only revealed once clicked on.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- card 3 -->
+        <div class="col s12 l5">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="./images/image-3.png">
+            </div>
+            <div class="card-content">
+              <p class="card-content-subtitle grey-text">PHOTODIARY</p>
+              <span class="card-title activator grey-text text-darken-2">American dream</span>
+              <p class="card-content-dexc grey-text text-darken-2">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis neque, molestias quidem
+                eaque aspernatur error repellat soluta quae fugiat maxime vitae recusandae vero
+                omnis pariatur sapiente illum.
+              </p>
+            </div>
+            <div class="card-reveal grey lighten-3">
+              <span class="card-title grey-text text-darken-4">More than just a music festival<i
+                  class="material-icons right">close</i></span>
+              <p>Here is some more information about this product that is only revealed once clicked on.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- card 4 -->
+        <div class="col s12 l5 offset-l2">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="./images/image-4.png">
+            </div>
+            <div class="card-content">
+              <p class="card-content-subtitle grey-text">PHOTODIARY</p>
+              <span class="card-title activator grey-text text-darken-2">A day exploring the Alps</span>
+              <p class="card-content-dexc grey-text text-darken-2">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis neque, molestias quidem
+                eaque aspernatur error repellat soluta quae fugiat maxime vitae recusandae vero
+                omnis pariatur sapiente illum.
+              </p>
+            </div>
+            <div class="card-reveal grey lighten-3">
+              <span class="card-title grey-text text-darken-4">More than just a music festival<i
+                  class="material-icons right">close</i></span>
+              <p>Here is some more information about this product that is only revealed once clicked on.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- form container -->
+    <div id="form" class="form-container grey lighten-3">
+      <div class="container">
+        <div class="row">
+          <div class="col s12">
+            <h2 class="form-title center-align">Sign up for our newsletter!</h2>
+          </div>
+          <div class="col s12 m8 offset-m2">
+            <div class="input-field col s12">
+              <input id="email" type="email" class="validate">
+              <label for="email">Enter a valid email address</label>
+              <span class="arrow"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <!-- card 5 -->
+        <div class="col s12 l5">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="./images/image-5.png">
+            </div>
+            <div class="card-content">
+              <p class="card-content-subtitle grey-text">LIFESTYLE</p>
+              <span class="card-title activator grey-text text-darken-2">Top 10 songs for running</span>
+              <p class="card-content-dexc grey-text text-darken-2">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis neque, molestias quidem
+                eaque aspernatur error repellat soluta quae fugiat maxime vitae recusandae vero
+                omnis pariatur sapiente illum.
+              </p>
+            </div>
+            <div class="card-reveal grey lighten-3">
+              <span class="card-title grey-text text-darken-4">More than just a music festival<i
+                  class="material-icons right">close</i></span>
+              <p>Here is some more information about this product that is only revealed once clicked on.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- card 6 -->
+        <div class="col s12 l5 offset-l2">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="./images/image-6.png">
+            </div>
+            <div class="card-content">
+              <p class="card-content-subtitle grey-text">LIFESTYLE</p>
+              <span class="card-title activator grey-text text-darken-2">Cold winter days</span>
+              <p class="card-content-dexc grey-text text-darken-2">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis neque, molestias quidem
+                eaque aspernatur error repellat soluta quae fugiat maxime vitae recusandae vero
+                omnis pariatur sapiente illum.
+              </p>
+            </div>
+            <div class="card-reveal grey lighten-3">
+              <span class="card-title grey-text text-darken-4">More than just a music festival<i
+                  class="material-icons right">close</i></span>
+              <p>Here is some more information about this product that is only revealed once clicked on.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <!-- FOOTER -->
   <footer class="page-footer grey lighten-3">

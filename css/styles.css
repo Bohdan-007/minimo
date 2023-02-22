@@ -1,8 +1,20 @@
+html {
+  scroll-behavior: smooth;
+}
 body {
   font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+  overflow-x: hidden;
 }
 
 /* HEADER */
+#header {
+  /* background-color: #f00; */
+  min-width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
 .nav-extended {
   padding: 30px 0px;
   box-shadow: none;
@@ -27,6 +39,74 @@ body {
   }
 }
 
+/* MAIN */
+/* hero section, slider */
+.hero {
+  padding: 0px 5%;
+}
+/* lifestyle section */
+.lifestyle {
+  padding: 10% 0px;
+}
+.lifestyle-subtitle {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.lifestyle-title {
+  margin-bottom: 30px;
+}
+.lifestyle-text {
+  margin-bottom: 40px;
+  font-size: 18px;
+  line-height: 1.8;
+}
+.lifestyle-link {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.lifestyle-link:hover {
+  text-decoration: underline;
+}
+/* phtodiary section */
+.card {
+  box-shadow: none;
+  padding-bottom: 15%;
+}
+.card-content {
+  padding: 30px 0px !important;
+}
+.card-content-subtitle {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  margin-bottom: 30px !important;
+}
+.card-title {
+  margin-bottom: 20px !important;
+  font-size: 32px !important;
+}
+.card-content-dexc {
+  font-size: 18px;
+}
+/* form container */
+.form-container {
+  padding: 5% 0px;
+  margin-bottom: 8%;
+}
+.input-field {
+  position: relative;
+}
+.form-title {
+  margin-bottom: 10%;
+}
+.arrow {
+  display: inline-block;
+  width: 32px;
+  height: 18px;
+  background: url(../images/icons/send-arrow.png) no-repeat;
+
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  cursor: pointer;
+}
+
 /* FOOTER */
 .page-footer {
   padding: 20px 0px;
@@ -35,8 +115,6 @@ body {
   padding: 0;
   margin: 0;
 }
-
-/* MAIN */
 
 /* conditions (left) */
 .footer-conditions {
