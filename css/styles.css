@@ -107,6 +107,28 @@ body {
   cursor: pointer;
 }
 
+/* lead more (button) section */
+.leadmore {
+  padding: 0px 0px 10%;
+}
+.my-btn {
+  box-shadow: none;
+  border: 1px solid #616161;
+  border-radius: 0px;
+
+  font-size: 20px;
+  text-transform: lowercase;
+}
+.my-btn::first-letter {
+  text-transform: uppercase;
+}
+.my-btn:hover {
+  box-shadow: none;
+  transform: scale(1.1);
+  background-color: #eaeaea !important;
+  color: #000 !important;
+}
+
 /* FOOTER */
 .page-footer {
   padding: 20px 0px;
